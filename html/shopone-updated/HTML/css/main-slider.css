@@ -1,0 +1,255 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+ - Main slider
+ - Main slider navigation
+
+- Project:  ShopOne - Furniture Store HTML Template
+- Version:  1.1
+- Author:   Andrey Sokoltsov
+- Profile:  http://themeforest.net/user/andreysokoltsov
+
+-------------------------------------------------------------------*/
+
+/* Main slider */
+.main-slider {
+  position: relative;
+  margin-bottom: 65px;
+}
+/*slider pagination buttons*/
+.main-slider .sp-buttons {
+  display: none;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 15%;
+  width: 100%;
+  padding: 0;
+  z-index: 999;
+}
+.main-slider .sp-buttons .sp-button {
+  display: inline-block;
+  border: 1px solid #ccc;
+  width: 13px;
+  height: 13px;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .main-slider .sp-buttons {
+    display: block;
+  }
+}
+/*slides all*/
+.main-slider .container {
+  height: 100%;
+  left: 0;
+  margin: auto;
+  max-width: 1170px;
+  padding: 0 15px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
+.main-slider .b-home-big-text h1, .main-slider .b-home-big-text h4, .main-slider .b-home-big-text h5 {
+  margin: 10px 0;
+}
+.main-slider .b-home-big-text h4 {
+  padding-top: 25px;
+  font-size: 22px;
+  position: relative;
+  font-family: 'Merriweather', serif;
+  letter-spacing: 3px;
+}
+.main-slider .b-home-big-text h4:before {
+  content: '';
+  display: block;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 25px;
+  height: 2px;
+  background: #666666;
+}
+.main-slider .b-home-big-text h5 {
+  font-family: 'Merriweather', serif;
+  color: #666666;
+  font-style: italic;
+  margin-bottom: 45px;
+}
+.main-slider .b-home-big-text .btn {
+  position: relative;
+}
+.main-slider .slide-2.b-home-big-text h4 {
+  font-weight: bold;
+}
+.main-slider .slide-2.b-home-big-text h4:before {
+  left: 0;
+  right: auto;
+  margin-left: inherit;
+  margin-right: inherit;
+}
+.main-slider .slide-2.b-home-big-text h1 {
+  font-size: 46px;
+  font-weight: normal;
+}
+.main-slider .slide-2.b-home-big-text h5 {
+  letter-spacing: 1px;
+}
+.main-slider .slide-2.b-home-big-text p {
+  font-size: 14px;
+  color: #666666;
+  line-height: 1.5;
+}
+.slide-tex-colors {
+  margin-top: 20px;
+}
+.slide-tex-colors span {
+  display: inline-block;
+  width: 20px;
+  height: 12px;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+.main-slider .slide-tex-1,
+.main-slider .slide-tex-2,
+.main-slider .slide-tex-3,
+.main-slider .slide-tex-4 {
+  width: 100%;
+}
+.main-slider .slide-tex-1 .slide-text,
+.main-slider .slide-tex-2 .slide-text,
+.main-slider .slide-tex-3 .slide-text,
+.main-slider .slide-tex-4 .slide-text {
+  width: 100%;
+}
+.main-slider .slide-button {
+  width: 100%;
+}
+.main-slider .slide-1 .sp-layer {
+  padding: 0 25px;
+}
+.main-slider .slide-2 .sp-layer {
+  padding: 0 12px;
+}
+.main-slider:hover .sp-buttons {
+  opacity: 1;
+}
+@media screen and (max-width: 749px) {
+  .main-slider .slide-1 .layer-1-2 {
+    top: 23% !important;
+  }
+  .main-slider .slide-1 .layer-1-3 {
+    top: 50% !important;
+  }
+  .main-slider .slide-2 .layer-2-1 {
+    top: 15% !important;
+  }
+  .main-slider .slide-2 .layer-2-2 {
+    top: 25% !important;
+  }
+  .main-slider .slide-2 .layer-2-3 {
+    top: 48% !important;
+  }
+  .main-slider .slide-2 .layer-2-4 {
+    top: 65% !important;
+  }
+}
+.main-slider .counter {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 300;
+  color: #666666;
+  position: absolute;
+  top: 50%;
+  right: 134px;
+  margin-top: -15px;
+  z-index: 999;
+}
+@media screen and (max-width: 767px) {
+  .main-slider .counter {
+    display: none;
+  }
+}
+
+/* main slider navigation arrows */
+.b-pro-contr {
+  position: absolute;
+  top: 50%;
+  margin-top: -32px;
+  z-index: 99;
+  right: 0;
+}
+.b-pro-contr .contr-divider {
+  width: 100px;
+  height: 1px;
+  background: #dddddd;
+  margin: 1px 0px 7px;
+}
+.b-pro-contr .pro-next,
+.b-pro-contr .pro-prev {
+  display: inline-block;
+  text-align: left;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  -moz-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  -webkit-transition: opacity 0.3s ease;
+  -ms-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.b-pro-contr .pro-next:hover,
+.b-pro-contr .pro-prev:hover {
+  opacity: .7;
+}
+.b-pro-contr .pro-next {
+  background: url("../images/pro-arrows.png") 0px 0px no-repeat;
+}
+.b-pro-contr .pro-prev {
+  background: url("../images/pro-arrows.png") 0px -37px no-repeat;
+}
+@media screen and (max-width: 767px) {
+  .b-pro-contr {
+    display: none;
+  }
+}
+@media screen and (max-width: 865px) {
+  .sp-image-container {
+    position: relative;
+  }
+  .sp-image-container + .container {
+    z-index: 2;
+  }
+  .sp-image-container:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 1;
+  }
+  .sp-image-container .sp-image {
+    position: absolute;
+    width: 100%;
+  }
+  .main-slider .b-home-big-text h1,
+  .main-slider .b-home-big-text h5,
+  .main-slider .b-home-big-text .btn,
+  .main-slider .b-home-big-text p {
+    color: #fff !important;
+  }
+}
+

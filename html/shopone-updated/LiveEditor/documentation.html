@@ -1,0 +1,80 @@
+<!doctype html><html>
+<head>
+
+	<title>Textolite — система управления статическим сайтом</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<style>
+
+		*{margin:0; padding:0}
+		ul{margin-left:14px}
+		p,ul,dd,h2{margin-bottom:14px}
+		a{color:#adc8fe; text-decoration:none}
+		a:visited{color:#7f98cb}
+		a:hover{color:#adc8fe; text-decoration:underline}
+		a:active{color:#6ed76e}
+		header,footer,main{display:block; clear:both}
+		h1{margin:41px 0 7px -2px; font-size:50px; font-weight:normal; letter-spacing:-3px; color:#d6d7dc}
+		h2{font-size:16px; font-weight:normal; color:#6ed76e}
+		html{font-size:14px; line-height:26px; font-family:Verdana; color:#d6d7dc; background-color:#5c5c5f}
+		body{width:97%; min-width:320px; max-width:900px; margin:20px auto}
+		footer{margin-left:-1px; color:#a1a1a4}
+		header ul, footer ul{float:right; margin:4px 10px 18px 0; list-style-type:none}
+		header li, footer li{float:left; padding:0 8px; border-left:1px solid #828286; line-height:18px}
+		footer ul:last-child{float:none; height:28px; margin-top:-10px}
+		li:first-child{padding-left:0; border:none}
+		header p{float:left; color:#a1a1a4}
+		span:first-child{margin-right:-8px}
+		span:last-child{color:#6ed76e}
+		code{display:block; margin-top:14px; font-size:17px; font-family:Courier New}
+
+	</style>
+
+</head>
+<body>
+
+	<header>
+
+		<h1><span>T</span>exto<span>lite</span></h1>
+		<p>Static website management system</p>
+
+		
+
+	</header>
+
+	<main>
+
+		<p>The system for servicing and maintaining websites based on static HTML files. It&rsquo;s focused on smaller sized sites that require periodic updates. All the changes on the site get saved directly on the HTML files, this allows to eliminate the need of having a database server. Does not require any integration with the site, its enough to just fit the catalogue with the system in the root directory of the site. The system automatically scans the structure of the site and provides a convenient access to all the files through the web interface.</p>
+		<p>The main feature of Textolite is the visual editor with the ability to edit content without any forms of input, only requires a click on the element that is on the site. For more technical and serious changes provided a source code editor with a highlighted syntax and line numbering. Files with the following extensions are also supported html, htm, shtml, shtm, stm, xml, php, js, css. For downloading or deletion of files exists a convenient file manager with the ability to upload multiple files in batches to the server.		</p>
+		<h2>Installation</h2>
+
+		<p>For a normal operation of the system users will need a web server Apache and PHP version 5.2 and above with a current mod_rewrite module. Users must unzip the downloaded archive to the root directory of the site. Must move on to the directory of the system through the address bar of the browser http://{mysite}/textolite/. The directory of the system can be renamed later on. If everything is done properly, the system will display an authorization form. The password is set by default as "admin". After the first login, users must change the password in the settings of the system.</p>
+		<p>The system needs a permission to record for its own catalogue and for all the files of the site. To prevent problems with displaying symbols that are not Latin, all the editable files should be in utf-8 encoding.</p>
+		<p>To launch the system under Nginx without Apache, users must configure the server using parameters from the file .htaccess. In this case the .htaccess can be deleted. For a standard installation the following code can be used:</p>
+
+		<h2>&nbsp;</h2>
+
+		<p><code>index textolite.php;<br>if (!-e $request_filename) {rewrite ^/textolite/(.*)$
+		/textolite/textolite.php?query=$1}<br>location ~ \.(ini|log)$ {deny all;}</code></p>
+
+		<h2>&nbsp;</h2>
+		<dl>
+		  <dd>&nbsp;
+	      </dd>
+		</dl>
+
+	</main>
+
+	<footer>
+
+		
+
+	  <p>&copy; 2014–2016 Textolite</p>
+</footer>
+
+	<script>var u=document.querySelector('footer p+ul');
+	u.innerHTML=u.innerHTML.replace(/(\w+)\[аt\](\w+)\[dоt\](\w+)/g,'<a href="mailto:$1@$2\.$3">$1@$2\.$3</a>')</script>
+
+</body>
+</html>

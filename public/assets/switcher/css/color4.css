@@ -1,0 +1,365 @@
+.demo_changer .demo-icon {
+  background: #01a664;
+}
+
+a:hover {
+  color: #01a664;
+}
+
+.b-logo h5:before {
+  background: #01a664;
+}
+.b-logo h5 span {
+  color: #01a664;
+}
+
+/*headings*/
+.heading h2:before, .heading h2:after {
+  background: #01a664;
+}
+
+.heading-line h2:before {
+  background: #01a664;
+}
+
+.heading-big h2:after {
+  background: #01a664;
+}
+.heading-big h2:before {
+  background: #01a664;
+}
+
+.week-deal-info .title {
+  color: #01a664;
+}
+
+/* page header */
+.b-page-header .b-breadcrumbs li:after,
+.b-page-header-mod .b-breadcrumbs li:after {
+  color: #01a664;
+}
+.b-page-header .b-breadcrumbs a:hover,
+.b-page-header-mod .b-breadcrumbs a:hover {
+  color: #01a664;
+}
+.b-page-header .b-breadcrumbs span,
+.b-page-header-mod .b-breadcrumbs span {
+  color: #01a664 !important;
+}
+
+.main-slider .sp-buttons .sp-selected-button,
+.main-slider .sp-buttons .sp-button:hover {
+  background: #01a664;
+  border-color: #01a664;
+}
+
+/* home */
+.b-home-big-text h4 {
+  color: #01a664;
+}
+
+.b-main-categories .categories-title h5 {
+  color: #01a664;
+}
+
+.b-main-cat:hover .solo-arrow {
+  color: #01a664;
+}
+.b-main-cat:hover .solo-arrow-left {
+  color: #01a664;
+}
+
+.b-parallax .heading h2 {
+  color: #01a664;
+}
+
+.b-items-sort li.active-filt {
+  color: #01a664;
+}
+.b-items-sort li:hover {
+  color: #01a664;
+}
+
+.b-home-deal h2 {
+  color: #01a664;
+}
+
+.latest-news-item .post-author li,
+.b-latest-news-list .post-author li {
+  color: #01a664;
+}
+
+/* home-2 */
+.shop-now-item .caption .product-deal {
+  color: #01a664;
+}
+
+/* blog */
+.post-title a:hover {
+  color: #01a664;
+}
+
+.post-author .ef {
+  color: #01a664;
+}
+
+.b-related-posts .post-author li {
+  color: #01a664;
+}
+
+/* side-nav */
+.lb-content .b-list li:hover:before, .lb-content .b-list li:hover a {
+  color: #01a664;
+}
+
+/* shop */
+div.b-item-card:hover {
+  outline-color: #01a664;
+}
+
+div.b-item-card-mod:hover .product-image {
+  border-color: #01a664;
+}
+
+.overview-spec .ef {
+  color: #01a664;
+}
+
+.check-position.current-check .ef {
+  color: #01a664;
+}
+
+.product-price {
+  color: #01a664;
+}
+
+.caption .product-price {
+  color: #01a664;
+}
+
+/* header */
+#cart .counter {
+  background: #01a664;
+}
+
+.b-header-menu a:hover {
+  color: #01a664 !important;
+}
+
+/*END header*/
+/* footer */
+.subsc-title h4 {
+  color: #01a664;
+}
+
+.footer-menu-item a:hover {
+  color: #01a664;
+}
+
+/*END footer*/
+.heading-line::before {
+  background: #01a664;
+}
+
+.btn-tag.active, .btn-tag:hover {
+  background: #01a664;
+  color: #fff;
+}
+
+.b-tags-post .btn-tag.active, .b-tags-post .btn-tag:hover {
+  color: #01a664;
+}
+
+.tags-buttons .btn-tag:hover {
+  background: #01a664;
+}
+
+/* tabs */
+.nav-tabs > li > a:hover,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  color: #01a664;
+}
+
+/* tables */
+.table-striped thead tr td {
+  border-color: #01a664 !important;
+}
+
+.table-mod thead tr td span::after {
+  background: #01a664;
+}
+
+/* price-slider filter*/
+.ui-slider-horizontal .ui-slider-range {
+  background: #01a664;
+}
+
+.ui-slider .ui-slider-handle {
+  background: #01a664;
+}
+
+/* buttons */
+.btn-primary {
+  background: #01a664;
+  border-color: #01a664;
+}
+.btn-primary:hover {
+  border-color: #01a664;
+}
+
+.btn-default:hover,
+.btn-default-arrow:hover {
+  border-color: #01a664;
+}
+
+.btn-primary-arrow {
+  background: #01a664;
+  border-color: #01a664;
+}
+.btn-primary-arrow:hover {
+  border-color: #01a664;
+}
+
+.solo-arrow:hover {
+  color: #01a664;
+}
+
+.btn-reply {
+  color: #01a664;
+}
+
+.btn-reset-filter:hover {
+  border-color: #01a664;
+}
+
+.btn-add:hover {
+  border-color: #01a664;
+  color: #01a664;
+}
+
+/* buttons socials */
+.b-socials a:hover {
+  color: #01a664;
+}
+
+/* item card buttons */
+.b-card-buttons ul a:hover {
+  background: #01a664;
+}
+
+/* pagination */
+.pagination .active a {
+  background: #01a664;
+}
+.pagination li a:hover {
+  background: #01a664;
+}
+
+.pagination-mod-1 .pag-prev a:hover, .pagination-mod-1 .pag-prev a:focus,
+.pagination-mod-1 .pag-next a:hover,
+.pagination-mod-1 .pag-next a:focus,
+.pagination-mod-2 .pag-prev a:hover,
+.pagination-mod-2 .pag-prev a:focus,
+.pagination-mod-2 .pag-next a:hover,
+.pagination-mod-2 .pag-next a:focus,
+.pagination-mod-3 .pag-prev a:hover,
+.pagination-mod-3 .pag-prev a:focus,
+.pagination-mod-3 .pag-next a:hover,
+.pagination-mod-3 .pag-next a:focus {
+  color: #01a664;
+}
+
+/*checkbox/radio*/
+.checkbox-1 input[type=checkbox]:checked + label:before {
+  color: #01a664;
+}
+
+.radio1 label:before {
+  background: #01a664;
+}
+
+/* progress bar */
+.progress.progress-color2 .progress-bar {
+  background: #01a664;
+}
+
+.progress-mod.progress-color2 {
+  border: 2px solid #01a664;
+}
+.progress-mod.progress-color2 .progress-bar {
+  background: #01a664;
+}
+
+/*highlight*/
+.highlight-primary {
+  background: #01a664;
+  color: #fff;
+}
+
+.highlight-secondary {
+  background: #444444;
+  color: #fff;
+}
+
+.highlight-dotted {
+  background: #fff;
+  outline: 1px dotted #878787;
+}
+
+.highlight-primary-nobg {
+  color: #01a664;
+}
+
+.highlight-secondary-nobg {
+  color: #000000;
+}
+
+/* tooltips */
+.color-tooltip {
+  color: #01a664;
+}
+
+/* lists */
+.b-list.check-circle-o li:before {
+  color: #01a664;
+}
+
+.b-list.l-checked .l-check:before {
+  color: #01a664;
+}
+.b-list.l-checked .l-not-check:before {
+  color: #01a664;
+}
+
+.b-list.l-numered span {
+  color: #01a664;
+}
+
+/*Dropcap styles*/
+.b-round-dropcap .round-dropcap {
+  background: #01a664;
+}
+
+.b-square-dropcap .square-dropcap {
+  background: #01a664;
+}
+
+/*Blockquote Style*/
+.b-blockquote-fa-quote .quote-icon {
+  color: #01a664;
+}
+
+.b-blockquote-left-border:before {
+  background: #01a664;
+}
+
+/*Accordion*/
+.b-accordion .ui-accordion-header.ui-state-active {
+  background: #01a664;
+  border-color: transparent;
+}
+.b-accordion .ui-accordion-content {
+  border-color: #01a664;
+}

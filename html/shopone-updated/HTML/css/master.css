@@ -1,0 +1,43 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    ShopOne - Furniture Store HTML Template
+Version:    1.1
+Author:     Andrey Sokoltsov
+Profile:    http://themeforest.net/user/andreysokoltsov
+-------------------------------------------------------------------*/
+
+
+/* Fonts */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,700,600italic,800);
+@import url(../assets/font-awesome/css/font-awesome.min.css);
+@import url("../fonts/elegant_font/style.css");
+@import url("inc/color.css");
+/* PLUGIN CSS */
+@import url("../assets/owl-carousel/owl.carousel.css");
+@import url("../assets/owl-carousel/owl.theme.default.css");
+@import url("../assets/bootstrap-select/bootstrap-select.min.css");
+@import url("../assets/bxslider/jquery.bxslider.css");
+@import url("../assets/slider-pro-master/css/slider-pro.min.css");
+@import url("../assets/switcher/css/color1.css");
+@import url("../assets/countdown/dscountdown.css");
+@import url("../assets/hamburgers/hamburgers.css");
+@import url("../assets/HoverEffectIdeas/css/set1.css");
+@import url("../assets/HoverEffectIdeas/css/set2.css");
+@import url("../assets/header/yamm.css");
+@import url("../assets/header/header.css");
+
+
+
+
+/* MAIN CSS */
+@import url("bootstrap.min.css");
+@import url("jquery-ui.min.css");
+@import url("theme.css");
+@import url("typography.css");
+@import url("responsive.css");
+@import url("animate.css");
+@import url("hover-min.css");
+@import url("main-slider.css");

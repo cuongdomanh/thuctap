@@ -1,0 +1,382 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+ - Colors
+
+- Project:  ShopOne - Furniture Store HTML Template
+- Version:  1.1
+- Author:   Andrey Sokoltsov
+- Profile:  http://themeforest.net/user/andreysokoltsov
+
+-------------------------------------------------------------------*/
+
+/* Colors*/
+.demo_changer .demo-icon {
+  background: #d8942c;
+}
+
+a:hover {
+  color: #d8942c;
+}
+
+.b-logo h5:before {
+  background: #d8942c;
+}
+.b-logo h5 span {
+  color: #d8942c;
+}
+
+/*headings*/
+.heading h2:before, .heading h2:after {
+  background: #d8942c;
+}
+
+.heading-line h2:before {
+  background: #d8942c;
+}
+
+.heading-big h2:after {
+  background: #d8942c;
+}
+.heading-big h2:before {
+  background: #d8942c;
+}
+
+.week-deal-info .title {
+  color: #d8942c;
+}
+
+/* page header */
+.b-page-header .b-breadcrumbs li:after,
+.b-page-header-mod .b-breadcrumbs li:after {
+  color: #d8942c;
+}
+.b-page-header .b-breadcrumbs a:hover,
+.b-page-header-mod .b-breadcrumbs a:hover {
+  color: #d8942c;
+}
+.b-page-header .b-breadcrumbs span,
+.b-page-header-mod .b-breadcrumbs span {
+  color: #d8942c !important;
+}
+
+.main-slider .sp-buttons .sp-selected-button,
+.main-slider .sp-buttons .sp-button:hover {
+  background: #d8942c;
+  border-color: #d8942c;
+}
+
+/* home */
+.b-home-big-text h4 {
+  color: #d8942c;
+}
+
+.b-main-categories .categories-title h5 {
+  color: #d8942c;
+}
+
+.b-main-cat:hover .solo-arrow {
+  color: #d8942c;
+}
+.b-main-cat:hover .solo-arrow-left {
+  color: #d8942c;
+}
+
+.b-parallax .heading h2 {
+  color: #d8942c;
+}
+
+.b-items-sort li.active-filt {
+  color: #d8942c;
+}
+.b-items-sort li:hover {
+  color: #d8942c;
+}
+
+.b-home-deal h2 {
+  color: #d8942c;
+}
+
+.latest-news-item .post-author li,
+.b-latest-news-list .post-author li {
+  color: #d8942c;
+}
+
+/* home-2 */
+.shop-now-item .caption .product-deal {
+  color: #d8942c;
+}
+
+/* blog */
+.post-title a:hover {
+  color: #d8942c;
+}
+
+.post-author .ef {
+  color: #d8942c;
+}
+
+.b-related-posts .post-author li {
+  color: #d8942c;
+}
+
+/* side-nav */
+.lb-content .b-list li:hover:before, .lb-content .b-list li:hover a {
+  color: #d8942c;
+}
+
+/* shop */
+div.b-item-card:hover {
+  outline-color: #d8942c;
+}
+
+div.b-item-card-mod:hover .product-image {
+  border-color: #d8942c;
+}
+
+.overview-spec .ef {
+  color: #d8942c;
+}
+
+.check-position.current-check .ef {
+  color: #d8942c;
+}
+
+.product-price {
+  color: #d8942c;
+}
+
+.caption .product-price {
+  color: #d8942c;
+}
+
+/* header */
+#cart .counter {
+  background: #d8942c;
+}
+
+.b-header-menu a:hover {
+  color: #d8942c !important;
+}
+
+.nav-wrapper .b-header-menu ul li.dropdown a:after {
+  color: #d8942c;
+}
+
+/*END header*/
+/* footer */
+.subsc-title h4 {
+  color: #d8942c;
+}
+
+.footer-menu-item a:hover {
+  color: #d8942c;
+}
+
+/*END footer*/
+.heading-line::before {
+  background: #d8942c;
+}
+
+.btn-tag.active, .btn-tag:hover {
+  background: #d8942c;
+  color: #fff;
+}
+
+.b-tags-post .btn-tag.active, .b-tags-post .btn-tag:hover {
+  color: #d8942c;
+}
+
+.tags-buttons .btn-tag:hover {
+  background: #d8942c;
+}
+
+/* tabs */
+.nav-tabs > li > a:hover,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  color: #d8942c;
+}
+
+/* tables */
+.table-striped thead tr td {
+  border-color: #d8942c !important;
+}
+
+.table-mod thead tr td span::after {
+  background: #d8942c;
+}
+
+/* price-slider filter*/
+.ui-slider-horizontal .ui-slider-range {
+  background: #d8942c;
+}
+
+.ui-slider .ui-slider-handle {
+  background: #d8942c;
+}
+
+/* buttons */
+.btn-primary {
+  background: #d8942c;
+  border-color: #d8942c;
+}
+.btn-primary:hover {
+  border-color: #d8942c;
+}
+
+.btn-default:hover,
+.btn-default-arrow:hover {
+  border-color: #d8942c;
+}
+
+.btn-primary-arrow {
+  background: #d8942c;
+  border-color: #d8942c;
+}
+.btn-primary-arrow:hover {
+  border-color: #d8942c;
+}
+
+.solo-arrow:hover {
+  color: #d8942c;
+}
+
+.btn-reply {
+  color: #d8942c;
+}
+
+.btn-reset-filter:hover {
+  border-color: #d8942c;
+}
+
+.btn-add:hover {
+  border-color: #d8942c;
+  color: #d8942c;
+}
+
+/* buttons socials */
+.b-socials a:hover {
+  color: #d8942c;
+}
+
+/* item card buttons */
+.b-card-buttons ul a:hover {
+  background: #d8942c;
+}
+
+/* pagination */
+.pagination .active a {
+  background: #d8942c;
+}
+.pagination li a:hover {
+  background: #d8942c;
+}
+
+.pagination-mod-1 .pag-prev a:hover, .pagination-mod-1 .pag-prev a:focus,
+.pagination-mod-1 .pag-next a:hover,
+.pagination-mod-1 .pag-next a:focus,
+.pagination-mod-2 .pag-prev a:hover,
+.pagination-mod-2 .pag-prev a:focus,
+.pagination-mod-2 .pag-next a:hover,
+.pagination-mod-2 .pag-next a:focus,
+.pagination-mod-3 .pag-prev a:hover,
+.pagination-mod-3 .pag-prev a:focus,
+.pagination-mod-3 .pag-next a:hover,
+.pagination-mod-3 .pag-next a:focus {
+  color: #d8942c;
+}
+
+/*checkbox/radio*/
+.checkbox-1 input[type=checkbox]:checked + label:before {
+  color: #d8942c;
+}
+
+.radio1 label:before {
+  background: #d8942c;
+}
+
+/* progress bar */
+.progress.progress-color2 .progress-bar {
+  background: #d8942c;
+}
+
+.progress-mod.progress-color2 {
+  border: 2px solid #d8942c;
+}
+.progress-mod.progress-color2 .progress-bar {
+  background: #d8942c;
+}
+
+/*highlight*/
+.highlight-primary {
+  background: #d8942c;
+  color: #fff;
+}
+
+.highlight-secondary {
+  background: #444444;
+  color: #fff;
+}
+
+.highlight-dotted {
+  background: #fff;
+  outline: 1px dotted #878787;
+}
+
+.highlight-primary-nobg {
+  color: #d8942c;
+}
+
+.highlight-secondary-nobg {
+  color: #000000;
+}
+
+/* tooltips */
+.color-tooltip {
+  color: #d8942c;
+}
+
+/* lists */
+.b-list.check-circle-o li:before {
+  color: #d8942c;
+}
+
+.b-list.l-checked .l-check:before {
+  color: #d8942c;
+}
+.b-list.l-checked .l-not-check:before {
+  color: #d8942c;
+}
+
+.b-list.l-numered span {
+  color: #d8942c;
+}
+
+/*Dropcap styles*/
+.b-round-dropcap .round-dropcap {
+  background: #d8942c;
+}
+
+.b-square-dropcap .square-dropcap {
+  background: #d8942c;
+}
+
+/*Blockquote Style*/
+.b-blockquote-fa-quote .quote-icon {
+  color: #d8942c;
+}
+
+.b-blockquote-left-border:before {
+  background: #d8942c;
+}
+
+/*Accordion*/
+.b-accordion .ui-accordion-header.ui-state-active {
+  background: #d8942c;
+  border-color: transparent;
+}
+.b-accordion .ui-accordion-content {
+  border-color: #d8942c;
+}

@@ -1,0 +1,365 @@
+.demo_changer .demo-icon {
+    background: #0072bc;
+}
+
+a:hover {
+    color: #0072bc;
+}
+
+.b-logo h5:before {
+    background: #0072bc;
+}
+.b-logo h5 span {
+    color: #0072bc;
+}
+
+/*headings*/
+.heading h2:before, .heading h2:after {
+    background: #0072bc;
+}
+
+.heading-line h2:before {
+    background: #0072bc;
+}
+
+.heading-big h2:after {
+    background: #0072bc;
+}
+.heading-big h2:before {
+    background: #0072bc;
+}
+
+.week-deal-info .title {
+    color: #0072bc;
+}
+
+/* page header */
+.b-page-header .b-breadcrumbs li:after,
+.b-page-header-mod .b-breadcrumbs li:after {
+    color: #0072bc;
+}
+.b-page-header .b-breadcrumbs a:hover,
+.b-page-header-mod .b-breadcrumbs a:hover {
+    color: #0072bc;
+}
+.b-page-header .b-breadcrumbs span,
+.b-page-header-mod .b-breadcrumbs span {
+    color: #0072bc !important;
+}
+
+.main-slider .sp-buttons .sp-selected-button,
+.main-slider .sp-buttons .sp-button:hover {
+    background: #0072bc;
+    border-color: #0072bc;
+}
+
+/* home */
+.b-home-big-text h4 {
+    color: #0072bc;
+}
+
+.b-main-categories .categories-title h5 {
+    color: #0072bc;
+}
+
+.b-main-cat:hover .solo-arrow {
+    color: #0072bc;
+}
+.b-main-cat:hover .solo-arrow-left {
+    color: #0072bc;
+}
+
+.b-parallax .heading h2 {
+    color: #0072bc;
+}
+
+.b-items-sort li.active-filt {
+    color: #0072bc;
+}
+.b-items-sort li:hover {
+    color: #0072bc;
+}
+
+.b-home-deal h2 {
+    color: #0072bc;
+}
+
+.latest-news-item .post-author li,
+.b-latest-news-list .post-author li {
+    color: #0072bc;
+}
+
+/* home-2 */
+.shop-now-item .caption .product-deal {
+    color: #0072bc;
+}
+
+/* blog */
+.post-title a:hover {
+    color: #0072bc;
+}
+
+.post-author .ef {
+    color: #0072bc;
+}
+
+.b-related-posts .post-author li {
+    color: #0072bc;
+}
+
+/* side-nav */
+.lb-content .b-list li:hover:before, .lb-content .b-list li:hover a {
+    color: #0072bc;
+}
+
+/* shop */
+div.b-item-card:hover {
+    outline-color: #0072bc;
+}
+
+div.b-item-card-mod:hover .product-image {
+    border-color: #0072bc;
+}
+
+.overview-spec .ef {
+    color: #0072bc;
+}
+
+.check-position.current-check .ef {
+    color: #0072bc;
+}
+
+.product-price {
+    color: #0072bc;
+}
+
+.caption .product-price {
+    color: #0072bc;
+}
+
+/* header */
+#cart .counter {
+    background: #0072bc;
+}
+
+.b-header-menu a:hover {
+    color: #0072bc !important;
+}
+
+/*END header*/
+/* footer */
+.subsc-title h4 {
+    color: #0072bc;
+}
+
+.footer-menu-item a:hover {
+    color: #0072bc;
+}
+
+/*END footer*/
+.heading-line::before {
+    background: #0072bc;
+}
+
+.btn-tag.active, .btn-tag:hover {
+    background: #0072bc;
+    color: #fff;
+}
+
+.b-tags-post .btn-tag.active, .b-tags-post .btn-tag:hover {
+    color: #0072bc;
+}
+
+.tags-buttons .btn-tag:hover {
+    background: #0072bc;
+}
+
+/* tabs */
+.nav-tabs > li > a:hover,
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+    color: #0072bc;
+}
+
+/* tables */
+.table-striped thead tr td {
+    border-color: #0072bc !important;
+}
+
+.table-mod thead tr td span::after {
+    background: #0072bc;
+}
+
+/* price-slider filter*/
+.ui-slider-horizontal .ui-slider-range {
+    background: #0072bc;
+}
+
+.ui-slider .ui-slider-handle {
+    background: #0072bc;
+}
+
+/* buttons */
+.btn-primary {
+    background: #0072bc;
+    border-color: #0072bc;
+}
+.btn-primary:hover {
+    border-color: #0072bc;
+}
+
+.btn-default:hover,
+.btn-default-arrow:hover {
+    border-color: #0072bc;
+}
+
+.btn-primary-arrow {
+    background: #0072bc;
+    border-color: #0072bc;
+}
+.btn-primary-arrow:hover {
+    border-color: #0072bc;
+}
+
+.solo-arrow:hover {
+    color: #0072bc;
+}
+
+.btn-reply {
+    color: #0072bc;
+}
+
+.btn-reset-filter:hover {
+    border-color: #0072bc;
+}
+
+.btn-add:hover {
+    border-color: #0072bc;
+    color: #0072bc;
+}
+
+/* buttons socials */
+.b-socials a:hover {
+    color: #0072bc;
+}
+
+/* item card buttons */
+.b-card-buttons ul a:hover {
+    background: #0072bc;
+}
+
+/* pagination */
+.pagination .active a {
+    background: #0072bc;
+}
+.pagination li a:hover {
+    background: #0072bc;
+}
+
+.pagination-mod-1 .pag-prev a:hover, .pagination-mod-1 .pag-prev a:focus,
+.pagination-mod-1 .pag-next a:hover,
+.pagination-mod-1 .pag-next a:focus,
+.pagination-mod-2 .pag-prev a:hover,
+.pagination-mod-2 .pag-prev a:focus,
+.pagination-mod-2 .pag-next a:hover,
+.pagination-mod-2 .pag-next a:focus,
+.pagination-mod-3 .pag-prev a:hover,
+.pagination-mod-3 .pag-prev a:focus,
+.pagination-mod-3 .pag-next a:hover,
+.pagination-mod-3 .pag-next a:focus {
+    color: #0072bc;
+}
+
+/*checkbox/radio*/
+.checkbox-1 input[type=checkbox]:checked + label:before {
+    color: #0072bc;
+}
+
+.radio1 label:before {
+    background: #0072bc;
+}
+
+/* progress bar */
+.progress.progress-color2 .progress-bar {
+    background: #0072bc;
+}
+
+.progress-mod.progress-color2 {
+    border: 2px solid #0072bc;
+}
+.progress-mod.progress-color2 .progress-bar {
+    background: #0072bc;
+}
+
+/*highlight*/
+.highlight-primary {
+    background: #0072bc;
+    color: #fff;
+}
+
+.highlight-secondary {
+    background: #444444;
+    color: #fff;
+}
+
+.highlight-dotted {
+    background: #fff;
+    outline: 1px dotted #878787;
+}
+
+.highlight-primary-nobg {
+    color: #0072bc;
+}
+
+.highlight-secondary-nobg {
+    color: #000000;
+}
+
+/* tooltips */
+.color-tooltip {
+    color: #0072bc;
+}
+
+/* lists */
+.b-list.check-circle-o li:before {
+    color: #0072bc;
+}
+
+.b-list.l-checked .l-check:before {
+    color: #0072bc;
+}
+.b-list.l-checked .l-not-check:before {
+    color: #0072bc;
+}
+
+.b-list.l-numered span {
+    color: #0072bc;
+}
+
+/*Dropcap styles*/
+.b-round-dropcap .round-dropcap {
+    background: #0072bc;
+}
+
+.b-square-dropcap .square-dropcap {
+    background: #0072bc;
+}
+
+/*Blockquote Style*/
+.b-blockquote-fa-quote .quote-icon {
+    color: #0072bc;
+}
+
+.b-blockquote-left-border:before {
+    background: #0072bc;
+}
+
+/*Accordion*/
+.b-accordion .ui-accordion-header.ui-state-active {
+    background: #0072bc;
+    border-color: transparent;
+}
+.b-accordion .ui-accordion-content {
+    border-color: #0072bc;
+}
